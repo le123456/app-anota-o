@@ -1,6 +1,6 @@
 # Aplicativo de Anotações
 
-Este é um aplicativo simples de anotações desenvolvido utilizando **React Native**. O objetivo deste aplicativo é permitir que o usuário faça e edite anotações, além de fornecer uma interface prática e limpa para interação. O aplicativo possui funcionalidades como a criação de novas anotações, edição e salvamento das mesmas.
+Este é um aplicativo simples de anotações desenvolvido utilizando **React Native** com **Expo**. O objetivo deste aplicativo é permitir que o usuário faça e edite anotações, além de fornecer uma interface prática e limpa para interação. O aplicativo possui funcionalidades como a criação de novas anotações, edição e salvamento das mesmas.
 
 ## Funcionalidades
 
@@ -12,6 +12,7 @@ Este é um aplicativo simples de anotações desenvolvido utilizando **React Nat
 ## Tecnologias Utilizadas
 
 - **React Native**: Framework para desenvolvimento de aplicações móveis utilizando JavaScript e React.
+- **Expo**: Framework e plataforma para facilitar o desenvolvimento com React Native.
 - **StatusBar**: Para customizar a aparência da barra de status do dispositivo.
 - **TouchableOpacity**: Para interações de clique em botões.
 - **TextInput**: Para entrada de texto nas anotações.
@@ -35,6 +36,6 @@ Este é um aplicativo simples de anotações desenvolvido utilizando **React Nat
 ### Pré-requisitos
 
 - **Node.js**: Verifique se você tem o [Node.js](https://nodejs.org/) instalado em seu sistema.
-- **React Native CLI**: Se não tiver o React Native CLI instalado, você pode instalá-lo usando o comando:
+- **Expo CLI**: Para facilitar o desenvolvimento com Expo, instale a ferramenta Expo CLI globalmente. Você pode instalar com o comando:
   ```bash
-  npm install -g react-native-cli
+  npm install -g expo-cli
